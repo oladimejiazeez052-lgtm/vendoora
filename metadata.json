@@ -1,0 +1,6 @@
+{
+  "name": "Vendoora",
+  "description": "An AI-powered peer-to-peer (P2P) marketplace featuring smart automated bargaining, an AI-powered listing architect, dynamic analytics dashboards, seller storefronts, and moderator management portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
