@@ -327,10 +327,10 @@ export default function OnboardingView({ currentUser, onUpdateUser, onNavigate }
                 {/* Smart Escrow Negotiate tool */}
                 <div className="border border-slate-150 rounded-xl p-4 bg-slate-50 space-y-3 flex flex-col justify-between" id="walkthrough-negotiator">
                   <div className="space-y-1.5">
-                    <span className="text-[10px] font-mono text-emerald-600 font-bold tracking-widest uppercase block">AI Escrow Bargaining Engine</span>
+                    <span className="text-[10px] font-mono text-emerald-600 font-bold tracking-widest uppercase block">Smart Escrow Bargaining Engine</span>
                     <h3 className="font-bold text-xs text-slate-700">Direct Smart negotiations</h3>
                     <p className="text-[11px] text-slate-500 leading-snug">
-                      Lock trades under Double-Lock Escrow conditions. Bargain with AI advisors, make counters, or authorize instant balance clearances cleanly.
+                      Lock trades under Double-Lock Escrow conditions. Settle with bargain tools, make counters, or authorize instant balance clearances cleanly.
                     </p>
                   </div>
                   
@@ -450,7 +450,7 @@ export default function OnboardingView({ currentUser, onUpdateUser, onNavigate }
                   </div>
                   <h3 className="font-extrabold text-xs text-slate-800 leading-tight">Setup Local Storefront</h3>
                   <p className="text-[10px] text-slate-500 leading-snug">
-                    List your very first item using our Gemini AI Listing Architect.
+                    List your very first item using our custom Product Architect template.
                   </p>
                 </button>
               </div>

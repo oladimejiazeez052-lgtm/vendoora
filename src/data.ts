@@ -133,6 +133,116 @@ export const INITIAL_PRODUCTS: Product[] = [
     createdAt: "2026-05-20T11:00:00Z",
     moderationReason: "Extreme price mismatch. Requesting direct banking transfers instead of standard Vendoora high-trust Escrow. Flagged automatically by system heuristical safety filters.",
     trustAnalytics: "Extreme high risk discrepancy detected. Image matching generic catalog files index and description references out of platform transactions.",
+  },
+  {
+    id: "prod-watch-1",
+    title: "Architectural Watch",
+    description: "Selling my beautiful minimalist Architectural Watch. Stainless steel casing, sapphire crystal face, genuine leather strap. Original packaging included.",
+    price: 295,
+    originalPrice: 350,
+    category: "Fashion",
+    condition: "Like New",
+    tags: ["Watch", "Minimalist", "Premium", "Chronograph"],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAmu933KExLMRhD3WE-nRuInf824T-ZD7WXPsMxUcJJdw-AC1hHz2aUh0hbrwHfHwsxZ9GbBwLQjbSPQ_dE1TUejWnAnAktun73412A88I4rcpmzgl2U9ulQ24nCUERd_gQ7PuK1SyzvRrQRHcmD-9EW8bdzYgZnYxm8dDZyCR9IL3JTPoaT6BbtlzcwmLW8wP22jx3HDI9K-LywOnptvUPP3UoW-YU5bLMszrKrQXtyjnNuI3UWAwKC_rMWcwbcd85Bza2G3tsi4w",
+    sellerId: "sell-sarah-j",
+    sellerName: "Sarah Jenkins",
+    sellerRating: 4.9,
+    sellerTrustScore: 99,
+    trustRiskRating: "Low",
+    status: "active",
+    views: 104,
+    offersCount: 1,
+    likesCount: 42,
+    createdAt: "2026-05-20T10:00:00Z",
+    trustAnalytics: "Verified double-lock merchant. Top ratings in vintage and modern style pieces.",
+  },
+  {
+    id: "prod-mcc-1",
+    title: "Minimalist Oak Coffee Table",
+    description: "Every piece is handcrafted in our Seattle studio with a focus on sustainable sourcing and architectural integrity. Curated bespoke timber and steel fittings.",
+    price: 849,
+    originalPrice: 1100,
+    category: "Home Furniture",
+    condition: "New",
+    tags: ["Table", "Oak", "Woodworking", "Modern Craft Co."],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC80x-EcfI3UlwKFwL91id8iLiJf8xiBXFF5Gi7ND066zoHx1KlKXR8Gi6-TJ_57NZXAEdpTvAUbZaFnYAEbY2T7l67mSmcsOd9rKh_Jr5smVFR9Vcf4JQlPxyTw-QjrcmdT1OB3l1wM9J7faW3V-YDkqBZSb32fNbmHhvr2C36tvmMkILYQrZKEHUgViaizWzns8krLe2BPeKTF7_BakUxN8f1F8qMMkEmtxx_UuPTAlN_R-DyzK80TDUn6ppzuwxUBTLUlsTS7tQ",
+    sellerId: "sell-mcc",
+    sellerName: "Modern Craft Co.",
+    sellerRating: 4.9,
+    sellerTrustScore: 99,
+    trustRiskRating: "Low",
+    status: "active",
+    views: 312,
+    offersCount: 4,
+    likesCount: 88,
+    createdAt: "2026-05-21T09:00:00Z",
+    trustAnalytics: "Master craftsman profile verified. Handcrafted furniture series. Standard shipping protected.",
+  },
+  {
+    id: "prod-mcc-2",
+    title: "Organic Form Ceramic Vases",
+    description: "Studio-fired organic form ceramic vases with subtle textured glaze. Perfect as sculptural home decor accents.",
+    price: 125,
+    originalPrice: 150,
+    category: "Other",
+    condition: "New",
+    tags: ["Ceramic", "Vase", "Sculpture", "Modern Craft Co."],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAJekjV-Gjb4AB_flt8F7rvLucXAUw6DnvRBNRZzAPo2rBUVkfk2ZcVtO4mVqqmfjL24X8_d_si6tBfOqeD12p4zmtStlSVpYpdj9g7cC1SHgwaC-zdgYe_2BUGTR-mBuqFoXr-Z-zhsbGU4--3jpMAJAPWpv0LBP-ruLo98KmNKWcYjmjSdPMbVJKzfSJo2cZrnQ99L-sOTbYwewLIMb4lvnk0ONT5UXV7mk3reDgpD0TZJBfkbVUUZ76B1JxJI3pEFU9EsrbjyKU",
+    sellerId: "sell-mcc",
+    sellerName: "Modern Craft Co.",
+    sellerRating: 4.9,
+    sellerTrustScore: 99,
+    trustRiskRating: "Low",
+    status: "active",
+    views: 145,
+    offersCount: 1,
+    likesCount: 39,
+    createdAt: "2026-05-21T09:15:00Z",
+    trustAnalytics: "Verified collection items. Carefully packed for protective escrow delivery.",
+  },
+  {
+    id: "prod-mcc-3",
+    title: "Executive Walnut Desk Tray",
+    description: "Milled from a single block of black walnut wood, this desk organizer keeps key accessories neatly arranged.",
+    price: 210,
+    originalPrice: 245,
+    category: "Computer Gear",
+    condition: "New",
+    tags: ["Walnut", "Organizer", "Tray", "Modern Craft Co."],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCOHI49fUg-KorkXjyWWdmPW_f7s_tKDUjYV4-LjsBvSCP0QuTca9w7qz_1QZGoXjOVblY3lwi3tLTK5UtYLeRucmfe5oaaoLiA_AS_YwmgcPiap5HVM2o2doN05TOMAwefxE1SVwVeZOyhGKEigrD9613OrKqPrbg1ComxeHNcaO803M_aDvK-8tpPXIKkmHqg7f4DOtsg6SkBB2T70hmYTcj4GbPcCfI2AXSwojudnHQ6nP2Y6GFiaNQ8xN2ldDaLQzXBknb97e8",
+    sellerId: "sell-mcc",
+    sellerName: "Modern Craft Co.",
+    sellerRating: 4.9,
+    sellerTrustScore: 99,
+    trustRiskRating: "Low",
+    status: "active",
+    views: 95,
+    offersCount: 0,
+    likesCount: 20,
+    createdAt: "2026-05-21T09:30:00Z",
+    trustAnalytics: "Eco-sourced timber logs coordinates validated.",
+  },
+  {
+    id: "prod-mcc-4",
+    title: "Industrial Copper Pendant",
+    description: "Curated spun raw copper pendant ceiling lamps with industrial fixtures. Emits an incredibly warm amber tone glow.",
+    price: 185,
+    originalPrice: 220,
+    category: "Other",
+    condition: "New",
+    tags: ["Lamp", "Pendant", "Copper", "Modern Craft Co."],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCoaw_uOloHtQX2g0pk9d3fi05HtbuM_kAQb7DjAFYWI_lBhTo_NXCYI-yjJzQqxSn-abkWZmaZWBKOAQKy6AkIQEQdeEWQktyI-VnV5_77kaUwsO1no4HxI8SL3P42SM_byFiApGNtm1aPrCWlbGCdgsGeqwZrfh6k6pRjawsa98YKsiehhqIbheQcxkBA36LAPWBFZNEYk3gkU8nsdUErrB1N2miWVkDL6ipwBH6eXZrrwuSySfzNKOrqh2wBMY2NNTXWDFl7puw",
+    sellerId: "sell-mcc",
+    sellerName: "Modern Craft Co.",
+    sellerRating: 4.9,
+    sellerTrustScore: 99,
+    trustRiskRating: "Low",
+    status: "active",
+    views: 180,
+    offersCount: 2,
+    likesCount: 44,
+    createdAt: "2026-05-19T10:00:00Z",
+    trustAnalytics: "Electrical components certified and physical structure checked.",
   }
 ];
 
@@ -207,6 +317,94 @@ export const INITIAL_ORDERS: Order[] = [
 
 export const INITIAL_CHATS: ChatSession[] = [
   {
+    chatId: "chat-sarah-jenkins",
+    productId: "prod-watch-1",
+    buyerId: "user-buyer-sarah",
+    buyerName: "Sarah Jenkins",
+    currentOffer: 265,
+    sellerMinPrice: 250,
+    lastOfferSender: "buyer",
+    status: "bargaining",
+    lastUpdated: "2026-05-20T10:45:00Z",
+    messages: [
+      {
+        id: "msg-sarah-1",
+        sender: "buyer",
+        text: "Hi! I saw your listing for the Architectural Watch. It's beautiful. Would you be open to a slightly lower price?",
+        timestamp: "10:42 AM"
+      },
+      {
+        id: "msg-sarah-2",
+        sender: "seller",
+        text: "Hello Sarah! Thank you. I've only had it for a few months so I'm looking for something close to the asking price, but I'm open to reasonable offers.",
+        timestamp: "10:44 AM"
+      },
+      {
+        id: "msg-sarah-3",
+        sender: "buyer",
+        text: "I've sent an offer for the watch. Let me know if that works for you!",
+        timestamp: "10:45 AM",
+        offerValue: 265
+      }
+    ]
+  },
+  {
+    chatId: "chat-david-chen",
+    productId: "prod-mcc-1",
+    buyerId: "user-buyer-david",
+    buyerName: "David Chen",
+    currentOffer: 800,
+    sellerMinPrice: 780,
+    lastOfferSender: "buyer",
+    status: "bargaining",
+    lastUpdated: "2026-05-19T14:20:00Z",
+    messages: [
+      {
+        id: "msg-david-1",
+        sender: "buyer",
+        text: "Is the Minimalist Oak Coffee Table still available?",
+        timestamp: "Yesterday"
+      },
+      {
+        id: "msg-david-2",
+        sender: "seller",
+        text: "Hi David, yes indeed! Standard delivery or pick-up is doable.",
+        timestamp: "Yesterday"
+      }
+    ]
+  },
+  {
+    chatId: "chat-elena",
+    productId: "prod-2",
+    buyerId: "user-buyer-elena",
+    buyerName: "Elena Rodriguez",
+    currentOffer: 180,
+    sellerMinPrice: 160,
+    lastOfferSender: "buyer",
+    status: "completed",
+    lastUpdated: "2026-05-12T09:00:00Z",
+    messages: [
+      {
+        id: "msg-elena-1",
+        sender: "buyer",
+        text: "Hello! Settle on $180 total cost?",
+        timestamp: "Oct 12"
+      },
+      {
+        id: "msg-elena-2",
+        sender: "seller",
+        text: "Sounds great! Deal accepted with standard fast escrow protective coordinates.",
+        timestamp: "Oct 12"
+      },
+      {
+        id: "msg-elena-3",
+        sender: "buyer",
+        text: "Thanks for the quick delivery! Package arrived safely.",
+        timestamp: "Oct 15"
+      }
+    ]
+  },
+  {
     chatId: "chat-active-1",
     productId: "prod-1",
     buyerId: "user-101",
@@ -222,23 +420,6 @@ export const INITIAL_CHATS: ChatSession[] = [
       { id: "msg-3", sender: "buyer", text: "Would you take $750 for it today? Can meet up or shipping works.", timestamp: "2026-05-20T17:15:00Z", offerValue: 750 },
       { id: "msg-4", sender: "seller", text: "Oof, $750 is a bit low. I can get on board with $810 limit.", timestamp: "2026-05-20T17:22:00Z" },
       { id: "msg-5", sender: "buyer", text: "Can we settle right in the middle at $790?", timestamp: "2026-05-20T18:00:00Z", offerValue: 790 },
-    ]
-  },
-  {
-    chatId: "chat-active-2",
-    productId: "prod-5",
-    buyerId: "user-buyer-xyz",
-    buyerName: "Sarah Higgins",
-    currentOffer: 460,
-    sellerMinPrice: 440,
-    lastOfferSender: "buyer",
-    status: "bargaining",
-    lastUpdated: "2026-05-20T15:20:00Z",
-    messages: [
-      { id: "msg-10", sender: "system", text: "Trade chat open for Specialized Rockhopper Bike.", timestamp: "2026-05-20T15:00:00Z" },
-      { id: "msg-11", sender: "buyer", text: "Hello! Is the bike suspension properly serviced?", timestamp: "2026-05-20T15:10:00Z" },
-      { id: "msg-12", sender: "seller", text: "Hi Sarah! Yes, serviced last autumn. Front locks and seals work smoothly.", timestamp: "2026-05-20T15:15:00Z" },
-      { id: "msg-13", sender: "buyer", text: "Sounds wonderful. I'd love to lock it in for $460.", timestamp: "2026-05-20T15:20:00Z", offerValue: 460 },
     ]
   }
 ];

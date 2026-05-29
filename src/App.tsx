@@ -21,6 +21,7 @@ import AdminModerationView from "./components/AdminModerationView";
 import DesignSystemView from "./components/DesignSystemView";
 import AuthView from "./components/AuthView";
 import OnboardingView from "./components/OnboardingView";
+import StorefrontView from "./components/StorefrontView";
 
 import { 
   ShieldCheck, Layout, MessageSquare, Sparkles, Sliders, BarChart2, 
@@ -50,6 +51,14 @@ export default function App() {
   
   // Notification popover overlay state
   const [showNotificationPopover, setShowNotificationPopover] = React.useState<boolean>(false);
+
+  // Redirection handler for Modern Craft Co. S20 Storefront
+  React.useEffect(() => {
+    if (selectedSellerId === "sell-mcc") {
+      setSelectedRoute("/shop/modern-craft-co");
+      setSelectedSellerId(undefined);
+    }
+  }, [selectedSellerId]);
 
   // Core state dispatchers
   const handleUpdateUser = (updated: Partial<UserProfile>) => {
@@ -184,6 +193,17 @@ export default function App() {
             onUpdateUser={handleUpdateUser}
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
+          />
+        );
+      case "/shop/modern-craft-co":
+        return (
+          <StorefrontView
+            products={products}
+            currentUser={currentUser}
+            onNavigate={handleNavigate}
+            onAddOrder={handleAddOrder}
+            onAddChat={handleAddChat}
+            onUpdateUser={handleUpdateUser}
           />
         );
       case "/messages":
@@ -334,6 +354,14 @@ export default function App() {
                   Bargains S21
                 </button>
                 <button
+                  onClick={() => handleNavigate("/shop/modern-craft-co")}
+                  className={`px-3 py-2 rounded-xl font-semibold transition-colors cursor-pointer ${
+                    selectedRoute === "/shop/modern-craft-co" ? "bg-slate-100 text-blue-600 font-bold" : "text-slate-600 hover:text-slate-950"
+                  }`}
+                >
+                  Store S20
+                </button>
+                <button
                   onClick={() => handleNavigate("/analytics")}
                   className={`px-3 py-2 rounded-xl font-semibold transition-colors cursor-pointer ${
                     selectedRoute === "/analytics" ? "bg-slate-100 text-blue-600 font-bold" : "text-slate-600 hover:text-slate-950"
@@ -461,6 +489,9 @@ export default function App() {
                   </button>
                   <button onClick={() => handleNavigate("/messages")} className="py-2.5 px-3 rounded-lg hover:bg-slate-50 font-bold block">
                     Continuous Negotiate S21
+                  </button>
+                  <button onClick={() => handleNavigate("/shop/modern-craft-co")} className="py-2.5 px-3 rounded-lg hover:bg-slate-50 font-bold block text-blue-600">
+                    Artisan Store S20
                   </button>
                   <button onClick={() => handleNavigate("/analytics")} className="py-2.5 px-3 rounded-lg hover:bg-slate-50 font-bold block">
                     Metrics Reports S28
